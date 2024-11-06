@@ -1,0 +1,19 @@
+.search-input-wrapper {
+    position: relative;
+  }
+  
+  .search-input-wrapper .form-control {
+    padding-right: 40px;
+  }
+  
+  .search-input-wrapper .search-icon-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: #666;
+    cursor: pointer;
+
+  }

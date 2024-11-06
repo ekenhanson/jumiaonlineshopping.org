@@ -1,0 +1,293 @@
+*{
+  margin: 0px;
+box-sizing: border-box;
+
+}
+
+
+.account-section li a:hover {
+  background-color: rgba(255, 173, 49, 1) !important;
+  color: white !important;
+}
+
+.main-content {
+  background-image: url(../assets/account-bg.png);
+  background-size: cover !important;
+  height: 40vh !important;
+}
+
+.balance-card {
+  background-image: url(../assets/Account-bg-2.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 45vh !important;
+  margin-top: -3rem;
+}
+
+.sidebar {
+  border-right: 1px solid #ddd;
+}
+
+.profile-section {
+  text-align: center;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px #6c757d;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.profile-pic {
+  width: 150px;
+  /* Adjust the width as needed */
+  height: 150px;
+  /* Adjust the height as needed */
+  object-fit: contain;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  /* Optional: Add a border for better visibility */
+  transition: border 0.3s;
+}
+
+.profile-pic:hover {
+  border: 2px solid #FFAD31;
+  /* Optional: Change border color on hover */
+}
+
+
+
+.nav-link {
+  color: #000;
+}
+
+.balance-card {
+  color: #fff;
+  border-radius: 10px;
+}
+
+.vip-count {
+  color: #FFAD31;
+  font-size: 2.7rem;
+}
+
+.vip-section span {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #FFAD31;
+}
+
+.action:hover {
+  color: rgba(255, 173, 49, 1);
+}
+
+.sidebar {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    z-index: 1000;
+    transition: left 0.3s;
+    overflow-y: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .main-content {
+    background-image: url(../assets/account-bg.png);
+    background-size: cover !important;
+    height: 80vh !important;
+  }
+
+  .vip-count{
+    font-size: 3rem !important;
+  }
+
+
+  .sidebar.open {
+    left: 0;
+  }
+
+  .sidebar-toggle {
+    position: fixed;
+    top: 10px;
+    left: 30px;
+    z-index: 1001;
+    /* background-color: #aeaeae; */
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    width: 20%;
+  }
+
+  .vip-count {
+    font-size: 4rem;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+}
+
+.links {
+  background-color: #BFBFBF !important;
+}
+
+.top-up {
+  width: 100vw !important;
+}
+
+.recharge {
+  background-color: #FFAD31;
+}
+
+.recharge-btn button:focus {
+  background-color: #FFAD31 !important;
+  color: white !important;
+}
+
+@media (max-width: 500px) {
+
+  .sidebar-toggle{
+    top: 10px;
+    left: 370px;
+  }
+}
+@media (max-width: 425px) {
+
+  .sidebar-toggle{
+    top: 20px;
+    left: 300px;
+  }
+
+  .vip-count {
+    font-size:3.7rem;
+  }
+}
+@media (max-width: 320px) {
+
+  .sidebar-toggle{
+    top: 18px;
+    left: 250px;
+  }
+}
+
+.country {
+  margin-left: 50rem;
+}
+
+.container-fluid, .row, .col-lg-9, .sidebar {
+    overflow-x: hidden;
+  }
+
+.profile-pic {
+  width: 150px; /* Set a fixed width */
+  height: 150px; /* Set a fixed height */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  border-radius: 50%; /* Makes the image a perfect circle */
+}
+
+
+
+
+@media (max-width: 430px) {
+  .rounded-pro{
+    width:180px !important;
+    margin-left: -0.9rem !important;
+  }
+  /* .order-count {
+    margin-left: 0.8em !important;
+    font-size: 1.5em;
+  
+  } */
+
+  /* .child-card {
+    margin-top: -5rem !important;
+    
+  } */
+}
+
+
+@media (max-width: 425px) {
+  .rounded-pro{
+    width:180px !important;
+    margin-left: 3.3rem !important;
+  }
+
+  /* .order-count {
+    margin-left: 0.8em !important;
+    font-size: 1.4em;
+    text-wrap: wrap;
+  
+  } */
+
+}
+
+
+
+
+
+
+
+
+/* New NEw New*/
+
+.profile-pic, .action img {
+  max-width: 100%;
+  height: auto;
+}
+
+.modal-content {
+  width: 90%;
+  max-width: 600px;
+}
+
+/* Adjust layout for tablet and small laptops */
+@media (max-width: 1024px) {
+  .sidebar {
+    display: none; /* Hide sidebar on smaller devices */
+  }
+  .main-content {
+    padding-left: 15px; /* Reduce padding */
+  }
+  .profile-section img {
+    width: 80px; /* Scale down the profile picture */
+  }
+  .balance-card {
+    width: 100%; /* Make the balance card full width */
+  }
+}
+
+/* For large tablets and Surface Pro */
+@media (min-width: 768px) and (max-width: 1366px) {
+  .sidebar {
+    width: 25%; /* Adjust sidebar width */
+  }
+  .main-content {
+    width: 75%; /* Adjust content width */
+  }
+}
+
+/* Fine-tuning for very large screens */
+@media (min-width: 1440px) {
+  .balance-card {
+    width: 60%; /* Keep balance card smaller */
+  }
+  .modal-content {
+    max-width: 50%;
+  }
+}

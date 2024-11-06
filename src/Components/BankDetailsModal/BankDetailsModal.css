@@ -1,0 +1,37 @@
+/* Custom styles for BankDetailsModal */
+.modal-dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    /* Remove default margin */
+}
+
+.modal-content {
+    width:100% !important;
+    /* Full width */
+    /* max-width: 100%; */
+    /* Ensure it doesn't exceed 100% */
+    box-sizing: border-box;
+    background-color: white !important;
+}
+
+.modal-body {
+    padding: 1rem;
+    /* Optional: Adjust padding as needed */
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: center;
+    /* Center the footer buttons */
+}
+
+.paym-card {
+    background-color: #E5E3E3 !important;
+}
+
+.change {
+    background-color: rgba(255, 173, 49, 1) !important;
+}

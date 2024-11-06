@@ -1,0 +1,158 @@
+.header {
+  background-image: url(../assets/reg-bacground.png);
+  min-height: 100vh !important;
+  background-repeat: no-repeat !important;
+  background-position: 100% 5% !important;
+}
+
+.terms,
+.sub-login {
+  color: rgba(255, 173, 49, 1) !important;
+}
+
+.reg-btn {
+  background-color: rgba(255, 173, 49, 1) !important;
+}
+
+.reg-con {
+  position: relative;
+}
+
+.img-reg-1 {
+  position: absolute;
+  width: 574px;
+  height: 2117px;
+  left: 7.3rem;
+  top: -15.3rem;
+}
+
+.img-reg-2 {
+  position: absolute;
+  width: 440px;
+  height: 500px;
+  left: -20px;
+  top: -7rem;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+@media screen and (min-width:786px) {
+  .img-reg-1 {
+      position: absolute;
+      width: 774px;
+      height: 111px;
+      left: 7.3rem;
+      top: -15.3rem;
+
+  }
+}
+
+  @media screen and (max-width:786px) {
+      .img-reg-1 {
+          position: absolute;
+          width: 574px;
+          /* height: ; */
+          left: 2.3rem;
+          top: -3rem;
+      }
+  }
+  .form-label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .header {
+    background-color: #f7f7f7;
+    padding-top: 1rem;
+  }
+  
+  .regs-btn button {
+    background-color: #007bff;
+  }
+  
+  .regs-btn button:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+
+  .modal-container {
+    position: fixed;
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-50%);
+    z-index: 1050; /* Ensure it's above other content */
+  }
+  
+  /* Optionally add media queries if you want to adjust the positioning on smaller screens */
+  @media screen and (max-width: 786px) {
+    .modal-container {
+      right: 1rem;
+    }
+  }
+  
+
+  .container {
+  margin: 0 auto;
+  max-width: 1200px; /* Adjust the width as needed */
+}
+
+.profile-form {
+  text-align: left;
+}
+
+.row {
+  margin-bottom: 1rem;
+}
+
+input.form-control {
+  border-radius: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.regs-btn .reg-btn {
+  background-color: #007bff;
+}
+
+.sub-login {
+  color: #007bff;
+}
+
+.sub-login:hover {
+  color: #0056b3;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .col-lg-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .profile-form .row {
+    margin: 0;
+  }
+}

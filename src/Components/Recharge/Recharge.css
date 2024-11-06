@@ -1,0 +1,147 @@
+.bnk-de:hover {
+    background-color: #FFAD31;
+    color: white;
+}
+
+.paym-card {
+    background-color: #E5E3E3 !important;
+}
+
+.btn-copy {
+    background-color: #FFAD31 !important;
+}
+
+/* .vtical {
+    height: 230px !important;
+    margin: 1rem auto;
+    color: white;
+ 
+} */
+
+.custom-hr {
+    border: none;
+    height: 2px;            /* Thickness */
+    background-color: #007bff; /* Custom color */
+    width: 75%;             /* Custom width */
+    margin: 20px auto;      /* Centered with margin */
+    border-radius: 5px;     /* Rounded edges */
+  }
+
+.file-input::-webkit-file-upload-button {
+    background-color: #FFAD31;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.file-input::-moz-file-upload-button {
+    background-color: #FFAD31;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* 
+.qr-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .qr-modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .qr-modal .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  } */
+ 
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-dialog {
+    background: #ecebeb;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .modal-header,
+  .modal-body,
+  .modal-footer {
+    padding: 10px;
+  }
+  
+  .btn-close {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+  } 
+
+  .copy-qr-text{
+    color: #FFAD31 !important;
+  }
+
+  .copy-qr {
+    background-color: #FFAD31 !important;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .custom-file-upload {
+    display: flex;
+    align-items: center;
+}
+
+.custom-file-label {
+    background-color: #ffa500;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#file-name {
+    font-size: 14px;
+    color: #999;
+}
+
+input[type="file"]{
+  border: 2px solid gray !important;
+}
+
+.alert {
+  text-align: center;
+  padding: 8px;
+  font-size: 14px;
+  margin-top: 8px;
+}

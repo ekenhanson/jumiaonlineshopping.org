@@ -1,0 +1,17 @@
+.draw-btn {
+    background-color: #FFAD31;
+}
+
+.draw-btn:hover{
+    background-color: #FFAD31 !important;
+}
+
+.avia-bal {
+    color: #FFAD31 !important;
+    font-size: 20px;
+}
+
+.option:hover {
+    background-color: #FFAD31 !important;
+
+}

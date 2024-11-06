@@ -1,0 +1,46 @@
+/* Example styles for NavigationBar2.css */
+.container-fluid {
+    background-color: #fff; 
+    padding: 10px 0; 
+  }
+  
+  .logo img {
+    max-width: 100%; 
+  }
+  
+  .menu-items {
+    justify-content: flex-end; 
+  }
+  
+  .toggle-menu {
+    margin-right: 10px;
+  }
+  
+  .show {
+    display: flex !important; 
+  }
+  
+  .hide {
+    display: none; 
+  }
+  
+  @media (max-width: 991.98px) {
+    .menu-items {
+      flex-direction: column; 
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+  
+    .hide {
+      display: none;
+    }
+  }
+
+  .nave {
+    background-color: rgba(254, 248, 240, 1) !important;
+  }

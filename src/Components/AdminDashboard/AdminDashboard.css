@@ -1,0 +1,98 @@
+/* .btn[aria-expanded="true"] > .bi {
+    content: attr(aria-expanded-icon);
+  }
+  
+  .btn[aria-expanded="false"] > .bi {
+    content: attr(aria-collapsed-icon);
+  } */
+
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.2/font/bootstrap-icons.min.css');
+
+.toggle-icon { */
+    /* font-size: 1rem; */
+    /* Adjust as needed */
+    /* transition: transform 0.3s;
+} */
+
+/* Default state for collapsed buttons (chevron-right) */
+/* .btn:not(.collapsed) .toggle-icon::before {
+    content: "\f078"; */
+    /* Chevron-right */
+/* } */
+
+/* State for expanded buttons (chevron-down) */
+/* .btn.collapsed .toggle-icon::before {
+    content: "\f077"; */
+    /* Chevron-down */
+/* } */
+
+
+
+.active-user {
+    background-color: #FDCACA !important;
+}
+
+.user-bal {
+    background-color: #D1E1FA !important;
+}
+
+.depo {
+    background-color: #D1FAE1;
+}
+
+.take {
+    background-color: #FAF8D1;
+}
+
+.dash{
+    background-image: url(../assets/account-bg.png);
+    background-size: cover;
+    height: 100vh;
+    /* background-attachment: fixed; */
+}
+
+.list-li li:hover a{
+    background-color: rgba(255, 173, 49, 1) !important;
+    border-radius: 4px;
+    color: white !important;
+}
+
+/* .list-li li:hover {
+    background-color: rgba(255, 173, 49, 1) !important;
+    border-radius: 4px;
+} */
+
+/* Link display */
+.btn-toggle-nav .link-body-emphasis {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+  }
+  
+  /* Chevron rotation */
+  .toggle-icon {
+    transition: transform 0.3s ease;
+    color: rgba(255, 173, 49, 1);
+  }
+  
+  .bi-chevron-down {
+    transform: rotate(4deg);
+  }
+  
+  /* Icon hover effect */
+  /* .link-body-emphasis img {
+    transition: filter 0.3s ease;
+  } */
+  
+  /* .link-body-emphasis:hover img {
+    filter: brightness(0) invert(1); /* Converts the image to white 
+  } */
+  .link-body-emphasis:hover .wall {
+    filter: brightness(0) invert(1); /* Converts the image to white */
+  }
+  .link-body-emphasis:hover .invy {
+    filter: brightness(0) invert(1); /* Converts the image to white */
+  }
+  .link-body-emphasis:hover .bnk{
+    filter: brightness(0) invert(1); /* Converts the image to white */
+  }

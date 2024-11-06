@@ -1,0 +1,153 @@
+
+.parent-card {
+  background-color: rgba(172, 168, 168, 0.2) !important;
+}
+
+.child-card {
+  background-color: rgba(255, 173, 49, 1) !important;
+  margin-top: -7rem !important;
+  outline: 8px solid rgb(222, 143, 25) !important;
+
+}
+
+.commision,
+.order-count {
+  color: rgba(255, 173, 49, 1);
+}
+
+.grab {
+  background-color: rgba(255, 173, 49, 1) !important;
+}
+
+/* .container-fluid {
+  padding: 0 1rem;
+} */
+
+.card {
+  margin-bottom: 1.5rem;
+}
+
+.parent-card {
+  background-color: #f8f9fa;
+  overflow: visible !important;
+
+}
+
+.child-card {
+  background-color: #007bff;
+
+}
+
+.icon img,
+.icon p {
+  display: block;
+  margin: 0 auto;
+}
+
+.current-balance {
+  font-size: 2.5rem;
+}
+
+.commission {
+  font-size: 2rem;
+}
+
+/* .order-count {
+  /* margin-left: 5rem !important; 
+} */
+
+@media (max-width: 768px) {
+
+  .current-balance,
+  .commission {
+    font-size: 1.5rem;
+  }
+
+  .child-card,
+  .order-count {
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .order-count {
+    margin-top: 0.3rem !important;
+    margin-left: 0.5em !important;
+    margin-bottom: 5rem !important;
+    word-wrap: break-word;
+  }
+}
+
+@media (min-width: 769px) {
+  .btn {
+    width: 50%;
+  }
+
+  .order-count {
+    margin-left: 0.7em !important;
+    font-size: 2.3em;
+  
+  }
+}
+@media (max-width: 1205px) {
+  .btn {
+    width: 50%;
+  }
+
+  .order-count {
+    margin-left: 0.7em !important;
+    /* font-size: 3.3em; */
+  
+  }
+}
+@media (max-width: 548px) {
+  .btn {
+    width: 50%;
+  }
+
+  .order-count {
+    margin-left: 0.7em !important;
+    font-size: 1.8em;
+  
+  }
+}
+@media (max-width: 1213px) {
+  .child-card {
+    margin-top: -4rem !important;
+  }
+
+}
+
+@media (max-width: 430px) {
+  .rounded-circle{
+    width:180px !important;
+    margin-left: -0.9rem !important;
+  }
+  .order-count {
+    margin-left: 0.8em !important;
+    font-size: 1.5em;
+  
+  }
+
+  .child-card {
+    margin-top: -4rem !important;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .rounded-circle{
+    width:180px !important;
+    margin-left: -1.3rem !important;
+  }
+
+  .order-count {
+    margin-left: 0.8em !important;
+    font-size: 1.4em;
+    text-wrap: wrap;
+  
+  }
+
+}

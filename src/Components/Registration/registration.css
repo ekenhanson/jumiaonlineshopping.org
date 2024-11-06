@@ -1,0 +1,57 @@
+.header {
+    background-image: url(../assets/reg-bacground.png);
+    min-height: 100vh !important;
+    background-repeat: no-repeat !important;
+    background-position: 100% 5% !important;
+}
+
+.terms,
+.sub-login {
+    color: rgba(255, 173, 49, 1) !important;
+}
+
+.reg-btn {
+    background-color: rgba(255, 173, 49, 1) !important;
+}
+
+.reg-con {
+    position: relative;
+}
+
+.img-reg-1 {
+    position: absolute;
+    width: 574px;
+    height: 2117px;
+    left: 7.3rem;
+    top: -15.3rem;
+}
+
+.img-reg-2 {
+    position: absolute;
+    width: 440px;
+    height: 500px;
+    left: -20px;
+    top: -7rem;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+@media screen and (min-width:786px) {
+    .img-reg-1 {
+        position: absolute;
+        width: 774px;
+        height: 111px;
+        left: 7.3rem;
+        top: -15.3rem;
+
+    }
+}
+
+    @media screen and (max-width:786px) {
+        .img-reg-1 {
+            position: absolute;
+            width: 574px;
+            /* height: ; */
+            left: 2.3rem;
+            top: -3rem;
+        }
+    }

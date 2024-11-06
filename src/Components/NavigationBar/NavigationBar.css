@@ -1,0 +1,107 @@
+/* .custom-navbar {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e5e5e5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+  }
+  
+  .nav-item {
+    text-align: center;
+  }
+  
+  .nav-icon {
+    font-size: 24px;
+  }
+  
+  .nav-text {
+    font-size: 12px;
+  }
+  
+  .home-icon {
+    color: #ffa500; 
+  }
+  
+  .grab-order {
+    position: relative;
+  }
+  
+  .grab-order-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #6c757d;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: -30px;
+  }
+  
+  .grab-order .nav-text {
+    font-size: 14px;
+    color: #000;
+  } */
+
+  .custom-navbar {
+    background-color: #f8f9fa; /* Customize as needed */
+  }
+  
+  .nav-item {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .nav-icon {
+    font-size: 1.5rem;
+  }
+  
+  .nav-text {
+    font-size: 0.875rem;
+  }
+  
+  /* Ensuring even spacing in the nav bar */
+  .navbar-nav {
+    width: 100%;
+  }
+  
+  .navbar-nav .nav-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-nav .nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .grab-order {
+    position: relative;
+  }
+  
+  .grab-order-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #6c757d;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: -30px;
+  }
+  
+  .grab-order .nav-text {
+    font-size: 14px;
+    color: #000;
+  } 
+
+  .nav-item.active .nav-icon,
+.nav-item.active .nav-text {
+  color: #FFAD31; /* or any color you want for the active state */
+}

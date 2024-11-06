@@ -1,0 +1,19 @@
+.flag-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+
+}
+
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+    border: none !important;
+}
+
+@media (max-width: 768px) {
+    .dropdown-menu {
+        right: 0;
+        left: auto;
+    }
+}

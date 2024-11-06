@@ -1,0 +1,69 @@
+/* .comm{
+    background-color: rgba(191, 191, 191, 1) !important;
+}
+
+.card {
+    background-color: rgba(255, 173, 49, 0.15) !important;
+}
+
+.scroll-container {
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+  }
+  
+  .scroll-content {
+    display: inline-block;
+    animation: scroll-left 15s linear infinite;
+  }
+  
+  .card {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  } */
+
+
+  .comm {
+    background-color: rgba(191, 191, 191, 1) !important;
+}
+
+.card {
+    background-color: rgba(255, 173, 49, 0.15) !important;
+}
+
+.scroll-container {
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.scroll-content {
+    display: flex;
+    animation: scroll-left 15s linear infinite;
+}
+
+.card {
+    flex: 0 0 auto;
+    margin: 0 10px;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
